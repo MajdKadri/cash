@@ -36,9 +36,11 @@ dependencies:
   cupertino_icons: ^1.0.8
   sms_autofill: ^2.4.1
   pin_code_fields: ^8.0.1
-  local_auth: ^2.3.0
   pointycastle: ^3.9.1
   asn1lib: ^1.5.9
+  flutter_svg: ^2.0.17
+  flutter_screenutil: ^5.9.3
+  auto_size_text: ^3.0.0
 
 dev_dependencies:
   flutter_test:

@@ -1,4 +1,5 @@
 import 'package:cash_mobile_v1/core/utils/responsive.dart';
+import 'package:cash_mobile_v1/features/presentation/screens/home_screen.dart';
 import 'package:cash_mobile_v1/features/presentation/screens/login_screen.dart';
 import 'package:cash_mobile_v1/features/presentation/widgets/main_elevated_button.dart';
 import 'package:flutter/gestures.dart';
@@ -81,7 +82,7 @@ class VerificationScreen extends StatelessWidget {
                   padding: EdgeInsets.symmetric(
                       vertical: SpacingHeight.spacingByHeight15(context))),
               MainElevatedButton(text: "Continue",onpressed: (){
-                Navigator.of(context).push(MaterialPageRoute(builder: (context) => LoginScreen(),));
+                Navigator.of(context).push(MaterialPageRoute(builder: (context) => HomeScreen(),));
 
               },)
             ],

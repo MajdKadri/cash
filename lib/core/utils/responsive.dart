@@ -86,6 +86,15 @@ class SpacingHeight {
         .size
         .height * 0.015;
   }
+  static double spacingByHeight10(
+      BuildContext context) //size might be width or height
+
+  {
+    return MediaQuery
+        .of(context)
+        .size
+        .height * 0.010;
+  }
 
   static double spacingByHeight25(
       BuildContext context) //size might be width or height
@@ -115,6 +124,43 @@ class SpacingHeight {
         .of(context)
         .size
         .height * 0.035;
+  }
+  static double spacingByHeight40(
+      BuildContext context) //size might be width or height
+
+  {
+    return MediaQuery
+        .of(context)
+        .size
+        .height * 0.040;
+  }
+
+  static double spacingByHeight45(
+      BuildContext context) //size might be width or height
+
+  {
+    return MediaQuery
+        .of(context)
+        .size
+        .height * 0.045;
+  }
+  static double spacingByHeight50(
+      BuildContext context) //size might be width or height
+
+  {
+    return MediaQuery
+        .of(context)
+        .size
+        .height * 0.050;
+  }
+  static double spacingByHeight60(
+      BuildContext context) //size might be width or height
+
+  {
+    return MediaQuery
+        .of(context)
+        .size
+        .height * 0.060;
   }
 }
 
@@ -172,6 +218,7 @@ class SpacingWidth {
   }
 
 
+
   static double spacingByWidth15(
       BuildContext context) //size might be width or height
 
@@ -219,6 +266,15 @@ class SpacingWidth {
         .of(context)
         .size
         .width * 0.10;
+  }
+  static double spacingByWidth12(
+      BuildContext context) //size might be width or height
+
+  {
+    return MediaQuery
+        .of(context)
+        .size
+        .width * 0.12;
   }
 
   static double spacingByWidth9(
