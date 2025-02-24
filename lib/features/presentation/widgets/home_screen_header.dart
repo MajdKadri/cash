@@ -102,6 +102,8 @@ top:10.h,
                 ],
               ),
             ),
+
+
             GestureDetector(
               onTap: () {
                 print('recents');
@@ -113,11 +115,11 @@ top:10.h,
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     AutoSizeText(
-                      minFontSize: 10,
-                      maxFontSize: 16,
+                      minFontSize: 15,
+                      maxFontSize: 35,
                       'Recent Transactions',
                       style: TextStyle(
-                          fontSize: 18.sp, fontWeight: FontWeight.w600),
+                          fontSize: 18.sp,),
                     )
                   ],
                 ),

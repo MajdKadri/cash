@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
       designSize: Size(375, 812),
       minTextAdapt: true,
       child: MaterialApp(
-
+theme: ThemeData(fontFamily: "MTN_FONT"),
         home: HomeScreen(),
         debugShowCheckedModeBanner: false,
       ),
